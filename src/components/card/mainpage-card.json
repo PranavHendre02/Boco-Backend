@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_card_mainpage_cards",
+  "info": {
+    "displayName": "MainpageCard"
+  },
+  "options": {},
+  "attributes": {
+    "CardImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "CardHeading": {
+      "type": "string"
+    },
+    "CardList": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

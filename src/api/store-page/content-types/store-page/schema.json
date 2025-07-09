@@ -1,0 +1,82 @@
+{
+  "kind": "singleType",
+  "collectionName": "store_pages",
+  "info": {
+    "singularName": "store-page",
+    "pluralName": "store-pages",
+    "displayName": "StorePage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Section1Head": {
+      "type": "string"
+    },
+    "Section1SubHead": {
+      "type": "text"
+    },
+    "Section1Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "Section2Card": {
+      "type": "component",
+      "component": "store-card.store-card",
+      "repeatable": true
+    },
+    "Section3Head": {
+      "type": "text"
+    },
+    "Section3SubHead": {
+      "type": "text"
+    },
+    "Section3List": {
+      "type": "blocks"
+    },
+    "Section3Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Section4Images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Section5Head": {
+      "type": "string"
+    },
+    "Section5SubHead": {
+      "type": "blocks"
+    },
+    "Section5LIst": {
+      "type": "blocks"
+    },
+    "Section5Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

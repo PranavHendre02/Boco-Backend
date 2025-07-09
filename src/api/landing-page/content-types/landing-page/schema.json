@@ -1,0 +1,61 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_pages",
+  "info": {
+    "singularName": "landing-page",
+    "pluralName": "landing-pages",
+    "displayName": "LandingPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "landingHeroHead": {
+      "type": "string"
+    },
+    "LandingHeroSubhead": {
+      "type": "blocks"
+    },
+    "landingHeroImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "LandsubImg": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "LandSubHead": {
+      "type": "string"
+    },
+    "LandSubText": {
+      "type": "blocks"
+    },
+    "ImageSliderHead": {
+      "type": "string"
+    },
+    "ImageSkiderSubHead": {
+      "type": "blocks"
+    },
+    "LandPageCardHead": {
+      "type": "string"
+    },
+    "LandPageCard": {
+      "type": "component",
+      "component": "land-card.land-page-card",
+      "repeatable": true
+    }
+  }
+}

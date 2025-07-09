@@ -1,0 +1,58 @@
+{
+  "kind": "singleType",
+  "collectionName": "main_pages",
+  "info": {
+    "singularName": "main-page",
+    "pluralName": "main-pages",
+    "displayName": "MainPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "MainpageCard": {
+      "type": "component",
+      "component": "card.mainpage-card",
+      "repeatable": true
+    },
+    "heroSectionHead": {
+      "type": "string",
+      "default": "We build high-converting Shopify stores that drive Profit"
+    },
+    "heroSectionsubHead": {
+      "type": "string",
+      "default": "We're a leading Shopify & Shopify Plus agency who design and develop strategic ecommerce websites"
+    },
+    "heroSectionsubList": {
+      "type": "blocks"
+    },
+    "heroSectionImage": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ImageSliderHead": {
+      "type": "string",
+      "default": "Stunningly Crafted Shopify Solutions Driven by Insights"
+    },
+    "imageSliderSubhead": {
+      "type": "text",
+      "default": "As Shopify Partners and a leading eCommerce Web Design Agency, we empower brands to thrive through strategic design and robust Shopify development. We bring a fresh strategic approach to your brand, focussing on delivering pixel perfect websites, built for Conversions & Growth."
+    },
+    "CardHead": {
+      "type": "string"
+    },
+    "CasestudyHead": {
+      "type": "string"
+    },
+    "FooterHead": {
+      "type": "string"
+    }
+  }
+}

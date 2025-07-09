@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "image_slider1s",
+  "info": {
+    "singularName": "image-slider1",
+    "pluralName": "image-slider1s",
+    "displayName": "imageSlider1"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroSlider": {
+      "type": "string"
+    },
+    "imageSlider": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "imageNumber": {
+      "type": "integer"
+    },
+    "heroSectionImg": {
+      "type": "uid",
+      "targetField": "heroSlider"
+    }
+  }
+}

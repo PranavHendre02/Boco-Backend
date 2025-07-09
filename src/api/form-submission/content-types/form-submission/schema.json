@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "form_submissions",
+  "info": {
+    "singularName": "form-submission",
+    "pluralName": "form-submissions",
+    "displayName": "formSubmission"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "brandname": {
+      "type": "string",
+      "required": true
+    },
+    "yourname": {
+      "type": "string",
+      "required": true
+    },
+    "websiteurl": {
+      "type": "text",
+      "required": true
+    },
+    "emailaddress": {
+      "type": "email",
+      "required": true
+    },
+    "Phonenumber": {
+      "type": "biginteger",
+      "required": true,
+      "min": "10",
+      "max": "10"
+    },
+    "Monthlystores": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "Less than 10k",
+        "Between 50k to 100k",
+        "Between 10k to 50k",
+        "More than 100k+"
+      ]
+    },
+    "conversion": {
+      "type": "string",
+      "required": true
+    },
+    "issue": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "Website Design & Development",
+        "High Converting Landing Pages",
+        "Technical Maintenance & Support",
+        "Conversion Rate Optimization"
+      ]
+    },
+    "overview": {
+      "type": "blocks"
+    },
+    "today": {
+      "type": "string"
+    }
+  }
+}

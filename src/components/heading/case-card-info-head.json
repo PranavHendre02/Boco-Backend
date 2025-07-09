@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_heading_case_card_info_heads",
+  "info": {
+    "displayName": "CaseCardInfoHead",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "CaseCardInfoTail": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

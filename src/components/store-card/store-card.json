@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_store_card_store_cards",
+  "info": {
+    "displayName": "StoreCard"
+  },
+  "options": {},
+  "attributes": {
+    "Section2CardImg": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "CardHead": {
+      "type": "string"
+    },
+    "CardSubHead": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}
