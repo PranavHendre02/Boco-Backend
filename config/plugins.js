@@ -1,4 +1,6 @@
-module.exports = (env) => ({
+'use strict';
+
+module.exports = ({env}) => ({
     upload: {
         config: {
             provider: 'cloudinary',
